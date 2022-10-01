@@ -459,7 +459,13 @@
           </li>
           <li>
             <label class="comment field">
-              <textarea class="input" name="comment" rows="10" placeholder="Введіть текст">
+              <textarea
+                class="input"
+                name="comment"
+                cols="30"
+                rows="10"
+                placeholder="Введіть текст"
+              >
               </textarea>
               <span class="label">Коментар</span>
             </label>
@@ -468,9 +474,11 @@
 
         <label class="confirmation field">
           <input class="checkbox" type="checkbox" name="topic" value="confirmation" />
-          <svg class="input-icon-checkbox">
-            <use href="./images/icons.svg#check"></use>
-          </svg>
+          <span class="check">
+            <svg class="input-icon-checkbox">
+              <use href="./images/icons.svg#check"></use>
+            </svg>
+          </span>
           <span class="label"
             >Погоджуюся з розсилкою та приймаю
             <a href="" class="agreement">Умови договору</a>
