@@ -422,6 +422,22 @@
             </li>
           </ul>
         </div>
+
+        <div class="container-three list">
+          <p>Підпишіться на розсилку</p>
+          <div class="subscribe">
+            <label class="mail field">
+              <input type="mail" class="input" name="mail" placeholder="E-mail" />
+            </label>
+
+            <button type="subscribe" class="btn-subscribe">
+              Підписатися
+              <svg class="send">
+                <use href="./images/icons.svg#send"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
 
@@ -432,7 +448,7 @@
         <ul>
           <li>
             <label class="name field">
-              <input type="text" class="input" placeholder=" " />
+              <input type="text" class="input" name="name" placeholder=" " />
               <span class="label">Ім'я</span>
               <svg class="input-icon-svg">
                 <use href="./images/icons.svg#person"></use>
@@ -441,7 +457,7 @@
           </li>
           <li>
             <label class="tel field">
-              <input type="tel" class="input" placeholder=" " />
+              <input type="tel" class="input" name="tell" placeholder=" " />
               <span class="label">Телефон</span>
               <svg class="input-icon-svg">
                 <use href="./images/icons.svg#phone"></use>
@@ -450,7 +466,7 @@
           </li>
           <li>
             <label class="mail field">
-              <input type="mail" class="input" placeholder=" " />
+              <input type="mail" class="input" name="mail" placeholder=" " />
               <span class="label">Пошта</span>
               <svg class="input-icon-svg">
                 <use href="./images/icons.svg#email"></use>
@@ -473,7 +489,7 @@
         </ul>
 
         <label class="confirmation field">
-          <input class="checkbox" type="checkbox" name="topic" value="confirmation" />
+          <input class="checkbox" type="checkbox" name="confirm" value="confirmation" />
           <span class="check">
             <svg class="input-icon-checkbox">
               <use href="./images/icons.svg#check"></use>
@@ -485,7 +501,7 @@
           </span>
         </label>
 
-        <button type="button" class="submit">Відправити</button>
+        <button type="submit" class="submit">Відправити</button>
 
         <button data-modal-close class="btn-close">
           <svg class="close-svg" width="18" height="18">
