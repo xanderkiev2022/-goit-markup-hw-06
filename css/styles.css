@@ -45,6 +45,10 @@ ul {
     padding: 0;
 }
 
+/* a {
+    text-decoration: none;
+} */
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -873,6 +877,8 @@ border: 1px solid var(--accent-color);
 
 .label {
     position: absolute;
+    /* display: block; */
+
     top: -20px;
     left: 0;
 
@@ -909,6 +915,8 @@ border: 1px solid var(--accent-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    cursor: pointer;
 }
 
 .checkbox { /* робимо її невидемою на всіх браузерах */
