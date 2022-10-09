@@ -453,35 +453,42 @@
       <div class="modal">
         <h2>Залиште свої дані, ми вам передзвонимо</h2>
         <ul>
-          <li>
+          <li class="list">
             <label class="name field">
-              <input type="text" class="input" name="name" placeholder=" " />
               <span class="label">Ім'я</span>
-              <svg class="input-icon-svg">
-                <use href="./images/icons.svg#person"></use>
-              </svg>
+              <span class="label-input">
+                <input type="text" class="input" name="name" placeholder=" " />
+                <svg class="input-icon-svg">
+                  <use href="./images/icons.svg#person"></use>
+                </svg>
+              </span>
             </label>
           </li>
-          <li>
+          <li class="list">
             <label class="tel field">
-              <input type="tel" class="input" name="tell" placeholder=" " />
               <span class="label">Телефон</span>
-              <svg class="input-icon-svg">
-                <use href="./images/icons.svg#phone"></use>
-              </svg>
+              <span class="label-input">
+                <input type="tel" class="input" name="tell" placeholder=" " />
+                <svg class="input-icon-svg">
+                  <use href="./images/icons.svg#phone"></use>
+                </svg>
+              </span>
             </label>
           </li>
-          <li>
+          <li class="list">
             <label class="mail field">
-              <input type="mail" class="input" name="mail" placeholder=" " />
               <span class="label">Пошта</span>
-              <svg class="input-icon-svg">
-                <use href="./images/icons.svg#email"></use>
-              </svg>
+              <span class="label-input">
+                <input type="mail" class="input" name="mail" placeholder=" " />
+                <svg class="input-icon-svg">
+                  <use href="./images/icons.svg#email"></use>
+                </svg>
+              </span>
             </label>
           </li>
-          <li>
+          <li class="list">
             <label class="comment field">
+              <span class="label">Коментар</span>
               <textarea
                 class="input"
                 name="comment"
@@ -490,7 +497,6 @@
                 placeholder="Введіть текст"
               >
               </textarea>
-              <span class="label">Коментар</span>
             </label>
           </li>
         </ul>
